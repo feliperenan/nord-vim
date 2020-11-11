@@ -397,7 +397,12 @@ hi! link diffRemoved DiffDelete
 
 call s:hi("elixirModuleDeclaration", s:nord7_gui, "", s:nord7_term, "", "", "")
 call s:hi("elixirAlias", s:nord7_gui, "", s:nord7_term, "", "", "")
+call s:hi("elixirOperator", s:nord7_gui, "", s:nord7_term, "", "", "")
+call s:hi("elixirVariable", s:nord6_gui, "", s:nord6_term, "", s:bold, "")
 call s:hi("elixirAtom", s:nord6_gui, "", s:nord6_term, "", s:bold, "")
+call s:hi("elixirPseudoVariable", s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("elixirTodo", s:nord3_gui_bright, "", s:nord3_term, "", "", "")
+call s:hi("elixirBoolean", s:nord15_gui, "", s:nord15_term, "", "", "")
 
 call s:hi("gitconfigVariable", s:nord7_gui, "", s:nord7_term, "", "", "")
 
